@@ -26,7 +26,7 @@ My third PY project, it was created during my studyies in Engeto academy in 2025
 	python main.py <URL> <output_filename>
 		- <URL>: URL adresa stránky z volby.cz, ze které chcete stáhnout data.
 		- <output_filename>: Název souboru, do kterého budou uloženy výsledky.
-	### Ukázka_ _
+## Ukázka_
 		python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=6&xnumnuts=4205" most.csv
 		Tento příkaz stáhne data z daného URL a uloží výsledky do souboru vysledky.csv.
 	
