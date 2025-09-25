@@ -14,7 +14,7 @@ Popis projektu_
 	Z vybrané územní úrovně se dostane ke všem příslušným volebním okrskům a získáme některá data o průběhu a výsledku voleb.
 	Takto získaná data jsou uložena do formátu csv.
 
-Instalace
+Instalace_
 	Nejprve aktivujte své virtuální prostředí. Poté nainstalujte potřebné knihovny pomocí následujícího příkazu:
 	pip install requirements.txt
 		Jedná se konkrétně o tyto knihovny:
@@ -26,7 +26,7 @@ Spuštění_
 	python main.py <URL> <output_filename>
 		- <URL>: URL adresa stránky z volby.cz, ze které chcete stáhnout data.
 		- <output_filename>: Název souboru, do kterého budou uloženy výsledky.
-	Ukázka_
+	Ukázka_ _
 		python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=6&xnumnuts=4205" most.csv
 		Tento příkaz stáhne data z daného URL a uloží výsledky do souboru vysledky.csv.
 	
@@ -41,17 +41,13 @@ code,location,registered,envelopes,valid,Občanská demokratická strana,Řád n
 567175,Horní Jiřetín,1 728,879,873,60,4,1,48,27,79,73,5,11,2,1,47,0,27,365,0,1,6,0,8,0,6,99,3
 ....
 
-Diagram programu
-	main()
-	│
-	├── download_data(url)
-	│
-	├── extract_links(raw_data)
-	│
-	├── process_obec_data(code, location, link)
-	│   ├── (volá se pro každou obec)
-	│
-	└── generate_csv(all_data, output_filename, all_party_names)
+Diagram programu_
+1.main()
+1.1 download_data(url)
+1.2 extract_links(raw_data)
+1.3 process_obec_data(code, location, link)
+1.3.1 (volá se pro každou obec)
+1.4 generate_csv(all_data, output_filename, all_party_names)
 
-Kontakt
+Kontakt_
 	Pokud máte jakékoliv dotazy nebo potřebujete pomoc, neváhejte mě kontaktovat na výše uvedeném emailu.****
