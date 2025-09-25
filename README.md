@@ -1,11 +1,11 @@
 # ENGETO_Python_Project3
 My third PY project, it was created during my studyies in Engeto academy in 2025. Topic:  Elections Scraper. Let´s downolad data!
 
-Projekt_ 
+## Projekt_ 
 	Elections Scraper
 	Třetí projekt do Engeto Akademie_Python
 
-Autor_
+## Autor_
 	Jméno: Veronika Balková
 	Email: veronika.balkova@rohde-schwarz.com
 
