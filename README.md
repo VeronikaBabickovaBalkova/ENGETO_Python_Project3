@@ -1,15 +1,15 @@
 # ENGETO_Python_Project3
 My third PY project, it was created during my studyies in Engeto academy in 2025. Topic:  Elections Scraper. Let´s downolad data!
 
-Projekt: 
+Projekt_ 
 	Elections Scraper
 	Třetí projekt do Engeto Akademie_Python
 
-Autor
+Autor_
 	Jméno: Veronika Balková
 	Email: veronika.balkova@rohde-schwarz.com
 
-Popis projektu
+Popis projektu_
 	Tento projekt je zaměřen na stažení výsledků voleb z webu volby.cz pro konkrétní územní úroveň (například "Most") v České republice. 
 	Z vybrané územní úrovně se dostane ke všem příslušným volebním okrskům a získáme některá data o průběhu a výsledku voleb.
 	Takto získaná data jsou uložena do formátu csv.
@@ -21,12 +21,12 @@ Instalace
 			requests
 			beautifulsoup4
 
-Spuštění
+Spuštění_
 	Skript spustíte pomocí dvou argumentů: první je odkaz na územní celek, druhý je název výstupního CSV souboru:
 	python main.py <URL> <output_filename>
 		- <URL>: URL adresa stránky z volby.cz, ze které chcete stáhnout data.
 		- <output_filename>: Název souboru, do kterého budou uloženy výsledky.
-	Ukázka
+	Ukázka_
 		python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=6&xnumnuts=4205" most.csv
 		Tento příkaz stáhne data z daného URL a uloží výsledky do souboru vysledky.csv.
 	
